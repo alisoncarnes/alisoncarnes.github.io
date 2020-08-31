@@ -15,14 +15,14 @@ $(()=>{
 
 	$.ajax({
             dataType: 'json',
-            url:'https://api.punkapi.com/v2/beers?10&abv_gt=' + userInput,
-            method: 'GET'
+            url:'https://api.punkapi.com/v2/beers?page=5&abv_gt=' + userInput,
+            // method: 'GET'
             // data: {
             //   "$limit": 3,
 
         }).then(
             (data)=>{
-              for(let i=0; i < 10; i++){
+              for(let i=0; i <= 9; i++){
                 // console.log(data);
                 let newDiv = $('<div>').addClass('beer-list').attr('id', i)
                 let newImage = $('<img>').attr('src', data[i].image_url)
