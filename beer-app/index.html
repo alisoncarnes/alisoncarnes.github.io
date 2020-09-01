@@ -7,14 +7,18 @@
     <script src="app.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&family=Teko:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Sigmar+One&family=Teko:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
   </head>
   <body>
 
 <div class="container">
-  <h1>BeerxABV</h1>
-  <h3>The Boozey Beer App</h3>
+  <h1 class="header">BeerxABV</h1>
+  <h3>The Beer Finder App</h3>
   <!-- modal button -->
-  <button id="openModal">How it Works</button>
+  <button id="openModal">About the App</button>
   <!-- modal -->
   <div class="modal">
     <div class="directions">
@@ -22,10 +26,12 @@
       <a href="#" id="close">Close</a>
 
       <!-- directions -->
-      <h1 class="how-to">Using the App</h1>
-      <p>It's simple! All you gotta do is type a number into the input field
-        and you'll get a list of beers with descriptions and food pairings
-        that are less than the number you typed.</p>
+      <h2>About the App</h2>
+      <p>Curious about different types of beers? Well using this app
+      can help you discover new beers you may have never heard of!</p>
+      <p>All you have to do is type in your ideal ABV number and the app
+        will show you a list of 10 different beers below that number as well as their perfect
+        food pairings that would go well with your drink!</p>
 
     </div>
 
@@ -53,8 +59,8 @@
   <!-- INPUT ABV FORM -->
 
   <form>
-	    <input type="text" name="get-beer" placeholder="write abv number here"/>
-	    <input type="submit" value="Get Beer List"/>
+	    <input type="text" name="get-beer" id="text-submit" placeholder="write abv number between 5-20 here"/>
+	    <input type="submit" id="abv-submit" value="Get Beer List"/>
       <button type="button" class="reset-btn">Reset List</button>
   </form>
 

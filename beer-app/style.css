@@ -28,8 +28,9 @@ html {
 .images{
   width: 600px;
   height: auto;
-  border: 5px solid #342404;
-  box-shadow: 2px 2px #d4ccce;
+  border: 10px solid #7c3f04;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -54,7 +55,7 @@ html {
 
 .modal {
   display: none;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.1);
   position: fixed;
   height: 200px;
   width: 600px;
@@ -67,25 +68,35 @@ html {
 }
 
 #close {
-  padding-top: 10px;
+  margin-top: 20px;
+  text-decoration: none;
 }
 
 .directions {
   background-color: white;
-  opacity: 50%;
+  opacity: 70%;
   height: 200px;
   width: auto;
+  font-family: 'Alegreya Sans', sans-serif;
+  padding: 10px;
+  margin-top: -10px;
 }
 
-img {
+ul img{
   height: 200px;
   width: auto;
+  background-color: #7c3f04;
+  border: 5px solid #ce5e04;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
 }
 
 form {
   padding-top: 10px;
   display: flex;
   justify-content: center;
+
+
 }
 /* .form-div{
   padding-top: 10px;
@@ -104,15 +115,58 @@ ul {
 
 li{
   list-style: none;
+  background-color: #f46f04;
   margin: 20px 0;
-  border: 2px solid #342404;
+  border: 5px solid #ce5e04;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   padding: 10px;
   text-align: left;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 h1 , h3 {
   color: #d4ccce
 }
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 4em;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, .7);
+  margin-top: -20px;
+}
+
+h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 3em;
+  margin-top: -50px;
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, .7);
+}
+
+#text-submit{
+  height: 30px;
+  width: 300px;
+  opacity: 70%;
+  border: 5px solid #7c3f04;
+  /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
+
+}
+
+#abv-submit{
+  background-color: #7c3f04;
+  border: 2px 2px solid black;
+}
+
+.reset-btn{
+  background-color: #ce5e04;
+}
+
+#openModal {
+  background-color: #ce5e04;
+  padding: 10px;
+  width: 200px;
+  margin-top: -30px;
+}
+
 /*
 responsive css */
 
@@ -126,16 +180,17 @@ responsive css */
   }
 
 
-h1 {
+  h1 {
   font-size: 10em;
-}
 
-h3 {
+  }
+
+  h3 {
   font-size: 1em;
-}
+  }
 
-.carousel {
+  .carousel {
   width: 80%;
-}
+  }
 
 }
