@@ -28,7 +28,7 @@ body {
   width: 600px;
   height: auto;
   display: none;
-  
+
 }
 
 .images img:first-of-type{
@@ -43,6 +43,30 @@ body {
   margin-top: 200px;
 }
 
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  height: 200px;
+  width: 600px;
+  z-index: 1;
+  overflow: auto;
+}
+
+#openModal {
+  margin-bottom: 10px;
+}
+
+#close {
+  padding-top: 10px;
+}
+
+.directions {
+  background-color: white;
+  opacity: 50%;
+  height: 200px;
+  width: auto;
+}
 
 img {
   height: 200px;
