@@ -124,4 +124,18 @@ responsive css */
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.carousel {
+  width: 80%;
+}
+
 }
