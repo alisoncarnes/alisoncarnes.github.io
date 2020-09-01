@@ -1,4 +1,35 @@
 // console.log('test');
+$(()=>{
+  let currentImgIndex = 0;
+  const num = $('.images').children().length -1;
+
+//next button
+
+  $('.next').on('click', () => {
+    $('.images').children().eq(currentImgIndex).hide();
+    if (currentImgIndex < num) {
+      currentImgIndex++
+    }else{
+      currentImgIndex = 0
+    }
+    $('.images').children().eq(currentImgIndex).show();
+  })
+
+  $('.previous').on('click', () => {
+    $('.images').children().eq(currentImgIndex).hide();
+    if (currentImgIndex > 0) {
+      currentImgIndex--;
+    }else{
+      currentImgIndex = num;
+    }
+    $('.images').children().eq(currentImgIndex).show();
+  })
+})
+
+//previous button
+
+
+
 
 $(()=>{
     $('form').on('submit', (event)=>{

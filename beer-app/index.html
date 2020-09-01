@@ -6,10 +6,34 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="app.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
   </head>
   <body>
+
 <div class="container">
-<h1>Beer Finder App</h1>
+  <h1>Beer Finder App</h1>
+  <!-- CAROUSEL -->
+  <div class="carousel">
+
+    <!-- previous button -->
+    <div class="carousel-button previous">
+      <!-- from linearicons -->
+      <svg class="lnr lnr-arrow-left-circle"><use xlink:href="#lnr-arrow-left-circle"></use></svg>
+    </div>
+  <div class="images">
+    <img src="images/beer3.webp" alt="cheers">
+    <img src="images/beer1.jpg" alt="beer pints">
+    <img src="images/beer2.jpg" alt="beer pints 2">
+  </div>
+
+  <!-- NEXT BUTTON -->
+    <div class="carousel-button next">
+      <!-- from linearicons -->
+    <svg class="lnr lnr-arrow-right-circle"><use xlink:href="#lnr-arrow-right-circle"></use></svg>
+    </div>
+  </div>
+  <!-- INPUT ABV FORM -->
+
   <form>
 	    <input type="text" name="get-beer" placeholder="write abv number here"/>
 	    <input type="submit" value="Get Beer List"/>
@@ -18,9 +42,11 @@
 
 
 
+
       <ul id="beer-here">
 
       </ul>
-</div>
+
+    </div>
   </body>
 </html>
