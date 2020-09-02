@@ -15,19 +15,19 @@ html {
 
 .container{
   /* display: flex; */
-  width: 600px;
+  width: 30em;
   margin: auto;
 
 }
 
 .carousel{
-  width: 600px;
+  width: 30em;
   display: flex;
   justify-content: space-around;
 }
 
 .images{
-  width: 600px;
+  width: 40em;
   height: auto;
   border: 10px solid #7c3f04;
   border-radius: 5px;
@@ -36,7 +36,7 @@ html {
 }
 
 .images img{
-  width: 600px;
+  width: 40em;
   height: auto;
   display: none;
 
@@ -58,25 +58,25 @@ html {
   display: none;
   background-color: rgba(0, 0, 0, 0.1);
   position: fixed;
-  height: 200px;
-  width: 600px;
+  height: 20em;
+  width: 30em;
   z-index: 1;
   overflow: auto;
 }
 
 #openModal {
-  margin-bottom: 10px;
+  margin-bottom: 1em;
 }
 
 #close {
-  margin-top: 20px;
+  margin-top: 1em;
   text-decoration: none;
 }
 
 .directions {
   background-color: white;
   opacity: 70%;
-  height: 200px;
+  height: 15em;
   width: auto;
   font-family: 'Alegreya Sans', sans-serif;
   padding: 10px;
@@ -84,7 +84,7 @@ html {
 }
 
 ul img{
-  height: 200px;
+  height: 10em;
   width: auto;
   background-color: #7c3f04;
   border: 5px solid #ce5e04;
@@ -156,7 +156,7 @@ h3 {
 
 #abv-submit{
   background-color: #7c3f04;
-  border: 2px 2px solid black;
+
 }
 
 .reset-btn{
@@ -166,14 +166,14 @@ h3 {
 #openModal {
   background-color: #ce5e04;
   padding: 10px;
-  width: 200px;
+  width: 20em;
   margin-top: -30px;
 }
 
 
 /* responsive css */
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) { */
 
 /*
   html {
@@ -185,7 +185,7 @@ h3 {
      text-align: center;
    } */
 
-h1 {
+/* h1 {
   font-size: 3em;
 }
 
@@ -200,11 +200,11 @@ h3 {
   display: flex;
   justify-content: space-around;
   /* margin-left: 30%; */
-}
+/* } */
 
-.images img{
+/* .images img{
   width:100%;
   height: auto;
   display: none;
 
-}
+}  */
