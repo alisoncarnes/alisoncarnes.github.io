@@ -1,3 +1,4 @@
+/* @media only screen and (min-width: 600px) { */
 body {
   text-align: center;
 }
@@ -98,6 +99,8 @@ form {
 
 
 }
+
+
 /* .form-div{
   padding-top: 10px;
   width: 600px;
@@ -167,33 +170,41 @@ h3 {
   margin-top: -30px;
 }
 
-/*
-responsive css */
+
+/* responsive css */
 
 @media only screen and (max-width: 600px) {
-  body {
+
+/*
+  html {
     background-image: url(images/background.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    text-align: center;
-  }
+     text-align: center;
+   } */
 
-
-  h1 {
+h1 {
   font-size: 3em;
-  margin-top: 10px;
+}
 
-  }
-
-  h3 {
+h3 {
   font-size: 2em;
-  margin-top: 5px;
-  }
+  margin-top: 5%;
+}
 
-  .carousel {
-  width: 600px;
-  }
+.carousel{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  /* margin-left: 30%; */
+}
+
+.images img{
+  width:100%;
+  height: auto;
+  display: none;
 
 }
