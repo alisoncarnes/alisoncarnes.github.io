@@ -151,17 +151,25 @@ h3 {
   width: 30em;
   opacity: 70%;
   border: 5px solid #7c3f04;
+
   /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
 
 }
 
 #abv-submit{
   background-color: #7c3f04;
+  padding: 5px 5px;
+  border: none;
+
+
 
 }
 
 .reset-btn{
   background-color: #ce5e04;
+  padding: 5px 5px;
+  border: none;
+
 }
 
 #openModal {
