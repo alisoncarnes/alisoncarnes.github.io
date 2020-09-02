@@ -187,8 +187,8 @@ h3 {
   } */
 
   .images{
-    width: 15em;
-    height: 10em;
+    width: 20em;
+    height: 15em;
     border: 10px solid #7c3f04;
     border-radius: 5px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -197,8 +197,8 @@ h3 {
   }
 
   .images img{
-    width: 15em;
-    height: 10em;
+    width: 20em;
+    height: 15em;
     display: none;
 
   }
